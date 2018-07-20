@@ -1,0 +1,30 @@
+{
+  "name": "reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teamswoosh/reviews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teamswoosh/reviews/issues"
+  },
+  "homepage": "https://github.com/Teamswoosh/reviews#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "react-addons-css-transition-group": "^15.6.2"
+  }
+}
