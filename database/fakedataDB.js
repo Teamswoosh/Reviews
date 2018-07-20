@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const db_connection = require('./db_connection.js')
 var faker = require('faker');
 
@@ -28,6 +29,13 @@ const getData = (cb) => {
 //Function generating fake reviews using faker.js 
 
 const generateFakeData = () => {
+=======
+var faker = require('faker');
+const db_connection = require('./db_connection.js')
+
+//Function generating fake reviews using faker.js 
+
+>>>>>>> 2cc8e25c95e5b596c49222e062172515438cdbdc
 for (var i=0; i<100; i++) {
 
 var stars = faker.random.number({
@@ -44,6 +52,7 @@ var review = {
   downvote: faker.random.number()
 };
 
+<<<<<<< HEAD
 }
 }
 
@@ -53,3 +62,23 @@ module.exports = {
   addData,
   getData
 };
+=======
+
+//Dynamically adding each generated review into the mySql database
+const addData = () => {
+var array = [review.user_name, review.date, review.review, review.rating, review.upvote, review.downvote]
+  db_connection.query('INSERT INTO user_reviews (name, review_date, review, stars, thumbs_up, thumbs_down) VALUES (?,?,?,?,?,?)', array, (err, data) => {
+    if (err) {
+      console.log('Error adding reviews to the database', err)
+  	return
+    } else {
+  	console.log('Succesfully added to the database')
+    }
+  })
+}
+
+addData();
+
+};
+
+>>>>>>> 2cc8e25c95e5b596c49222e062172515438cdbdc
