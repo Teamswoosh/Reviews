@@ -4,57 +4,45 @@
 }
 
 .shippings {
-<<<<<<< HEAD
   font-size: 5vw;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   height: 200px;
   line-height: 200px;
-=======
   display: flex;
   flex-direction: column;
   height: 200px;
->>>>>>> 2cc8e25c95e5b596c49222e062172515438cdbdc
   border: 0.2px solid black;
   align-items: center;
   text-align: center;
 }
 
 .reviews {
-<<<<<<< HEAD
   font-size: 5vw;
   font-weight: bold;
   height: 200px;
   line-height: 200px;
-=======
   height: 200px;
->>>>>>> 2cc8e25c95e5b596c49222e062172515438cdbdc
   border: 0.2px solid black;
   text-align: center;
 }
 
 .info {
-<<<<<<< HEAD
   font-size: 5vw;
   font-weight: bold;
   height: 200px;
   line-height: 200px;
-=======
   height: 200px;
->>>>>>> 2cc8e25c95e5b596c49222e062172515438cdbdc
   border: 0.2px solid black;
   text-align: center;
 }
 
 .panel {
-<<<<<<< HEAD
   height: 200px;
   background: white;
-=======
   height: 100px;
   background: black;
->>>>>>> 2cc8e25c95e5b596c49222e062172515438cdbdc
 }
 
 .example-enter {
@@ -62,19 +50,13 @@
 }
 
 .example-enter.example-enter-active {
-<<<<<<< HEAD
   height: 200px;
-=======
   height: 100px;
->>>>>>> 2cc8e25c95e5b596c49222e062172515438cdbdc
   -webkit-transition: height .3s ease;
 }
 
 .example-leave.example-leave-active {
   height: 0px;
   -webkit-transition: height .3s ease;
-<<<<<<< HEAD
   opacity: 0.01;
-=======
->>>>>>> 2cc8e25c95e5b596c49222e062172515438cdbdc
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import styles from "../../dist/style.css";
 import Shipping_returns from "./Shipping_returns.jsx"
 
 import styles from "../../dist/style.css"
