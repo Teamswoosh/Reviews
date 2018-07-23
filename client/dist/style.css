@@ -3,22 +3,9 @@
 	flex-direction: column;
 }
 
-.shippings {
-  font-size: 5vw;
-  font-weight: bold;
+.parent {
   display: flex;
   flex-direction: column;
-  height: 200px;
-  line-height: 200px;
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  border: 0.2px solid black;
-  align-items: center;
-  text-align: center;
-}
-
-.reviews {
   font-size: 5vw;
   font-weight: bold;
   height: 200px;
@@ -28,21 +15,11 @@
   text-align: center;
 }
 
-.info {
-  font-size: 5vw;
-  font-weight: bold;
-  height: 200px;
-  line-height: 200px;
-  height: 200px;
-  border: 0.2px solid black;
+.childComponent {
   text-align: center;
-}
-
-.panel {
   height: 200px;
   background: white;
   height: 100px;
-  background: black;
 }
 
 .example-enter {

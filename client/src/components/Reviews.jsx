@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const Shipping_returns = () => {
+const Reviews = () => {
   return (
    <div>
       Free standard shipping and 30-day free returns, only with NikePlus. Exclusions apply. Learn more.
@@ -12,4 +12,4 @@ const Shipping_returns = () => {
    )
 }
 
-export default Shipping_returns
+export default Reviews
