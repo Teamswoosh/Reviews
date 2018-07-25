@@ -1,4 +1,4 @@
-var fakeRevies = [{ user_name: 'Krystal Parker',
+{ user_name: 'Krystal Parker',
   date: 2018-07-17T18:33:54.636Z,
   review: 'Dolore facilis aut sed placeat suscipit et repudiandae. Consequatur provident praesentium enim magnam. Occaecati maxime ut molestiae vel qui magni ex distinctio ducimus. Labore nihil nemo. Nemo est aut nihil vitae.',
   rating: 1,
