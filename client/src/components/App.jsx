@@ -5,17 +5,15 @@ import Shipping_returns from "./Shipping_returns.jsx"
 import Reviews from "./Reviews.jsx"
 import styles from "../../dist/style.css"
 
-
-
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
- visible_shippings: false,
+      visible_shippings: false,
       visible_reviews: false,
       visible_info: false,
     };
-  } 
+  }
 
   slideUpShippings() {
     this.setState({ visible_shippings: !this.state.visible_shippings });
