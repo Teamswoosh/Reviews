@@ -15,7 +15,7 @@ class App extends React.Component {
       visible_reviews: false,
       visible_info: false,
     };
-  }
+  } 
 
   slideUpShippings() {
     this.setState({ visible_shippings: !this.state.visible_shippings });
