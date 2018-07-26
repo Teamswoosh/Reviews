@@ -27,7 +27,6 @@ const getData = (cb) => {
 
 // Function translating array of objects into CSV
 
-
 const convertArrayOfObjectsToCSV = (args) => {
   let result,
     ctr,
@@ -106,7 +105,6 @@ const generateFakeData = () => {
 
   CSV(arr);
 };
-
 generateFakeData();
 
 module.exports = {
